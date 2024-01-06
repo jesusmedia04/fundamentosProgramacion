@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FUNDAMENTOS DE PROGRAMACION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="bg-dark text-light py-4">
+        <div class="container mt-4">
+          <h1 class="display-4">FUNDAMENTOS DE PROGRAMACION</h1>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title" >QUE ES LA PROGRAMACION</h2>
+                        <p class="card-text"> Es el proceso de diseñar y construir conjuntos de instrucciones <br> que permiten a una computadora realizar tareas específicas, <br> consiste en escribir código utilizando lenguajes de programación <br> para resolver problemas y realizar diversas acciones. </p>
+                        <a href="#" class="btn btn-primary mostrarImagenBtn" data-modal="imagenModal1">LENGUAJES</a>
+                        <div id="imagenModal1" class="modal">
+                            <span class="cerrar" onclick="cerrarModal('imagenModal1')">X</span>
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/lenguajes.jpg" alt="Imagen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">QUE SON LAS VARIABLES</h2>
+                        <p class="card-text"> Son espacios en memoria que almacenan valores o informacion, los valores pueden cambiar durante la ejecucion del programa.</p>
+                        <a href="#" class="btn btn-primary mostrarImagenBtn" data-modal="imagenModal2">VARIABLES</a>
+                        <div id="imagenModal2" class="modal">
+                            <span class="cerrar" onclick="cerrarModal('imagenModal2')">X</span>
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/variables.png" alt="Imagen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="container-fluid">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">TIPOS DE DATOS</h2>
+                        <p class="card-text">Son categorías que definen qué tipo de valores pueden almacenarse en una variable.</p>
+                        <a href="#" class="btn btn-primary mostrarImagenBtn" data-modal="imagenModal3">EJEMPLO</a>
+                        <div id="imagenModal3" class="modal">
+                            <span class="cerrar" onclick="cerrarModal('imagenModal3')">X</span>
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/datos.png" alt="Imagen" style="width: 30%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="container-fluid">
+        
+            <h3>Tipos de Operadores</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                  <tr >
+                    <th class="bg-dark text-white fs-3">Tipo</th>
+                    <th class="bg-dark text-white fs-3">Operadores</th>
+                    <th class="bg-dark text-white fs-3">Descripción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="4">Aritméticos</td>
+                    <td>+</td>
+                    <td>Suma</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>Resta</td>
+                  </tr>
+                  <tr>
+                    <td>*</td>
+                    <td>Multiplicación</td>
+                  </tr>
+                  <tr>
+                    <td>/</td>
+                    <td>División</td>
+                  </tr>
+                  <tr>
+                    <td>Asignación</td>
+                    <td>=</td>
+                    <td>Asigna valores a variables</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">Comparación</td>
+                    <td>==</td>
+                    <td>Igualdad</td>
+                  </tr>
+                  <tr>
+                    <td>&gt;</td>
+                    <td>Mayor que</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;</td>
+                    <td>Menor que</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Lógicos</td>
+                    <td>&amp;&amp;</td>
+                    <td>AND lógico</td>
+                  </tr>
+                  <tr>
+                    <td>||</td>
+                    <td>OR lógico</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+    
+    </section>
+    <section class="container-fluid">
+        <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card  bg-dark text-white">
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Condicionales en JavaScript</h5>
+                    <p class="card-text">Son estructuras que permiten tomar decisiones basadas en condiciones verdaderas o falsas.</p>
+                    <p class="card-text">Se utilizan las palabras clave <code>if</code>, <code>else if</code>, y <code>else</code>.</p>
+                    <p class="card-text">Ejemplo:</p>
+                    <pre><code>
+        if (condición) {
+          // Código si la condición es verdadera
+        } else {
+          // Código si la condición es falsa
+        }
+                    </code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card bg-dark text-white">
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Ciclos en JavaScript</h5>
+                    <p class="card-text">Son estructuras que permiten ejecutar repetidamente un bloque de código mientras se cumple una condición.</p>
+                    <p class="card-text">Los ciclos más comunes son <code>for</code> y <code>while</code>.</p>
+                    <p class="card-text">Ejemplo de un ciclo <code>for</code>:</p>
+                    <pre><code>
+        for (let i = 0; i < 5; i++) {
+          // Código a ejecutar en cada iteración
+        }
+                    </code></pre>
+                    <p class="card-text">Ejemplo de un ciclo <code>while</code>:</p>
+                    <pre><code>
+        let i = 0;
+        while (i < 5) {
+          // Código a ejecutar en cada iteración
+          i++;
+        }
+                    </code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card bg-dark text-white">
+                  <div class="card-body">
+                    <h5 class="card-title fs-1">Algoritmos</h5>
+                    <p class="card-text">Son conjuntos finitos de pasos o instrucciones que describen un proceso para resolver un problema o realizar una tarea específica.</p>
+                    <p class="card-text">Los algoritmos son la base de la programación y pueden ser representados de manera abstracta o en forma de diagramas.</p>
+                    <p class="card-text">Ejemplo:</p>
+                    <pre><code>
+        // Algoritmo para sumar dos números
+        1. Ingresar dos números A y B.
+        2. Sumar A y B y almacenar el resultado en C.
+        3. Mostrar el valor de C.
+                    </code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </section>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </body>
+</html>
